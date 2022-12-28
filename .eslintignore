@@ -1,0 +1,10 @@
+# Folder
+dist/**/*
+out/**/*
+.next/**/*'
+
+# File
+
+## disable json formater 
+package.json
+tsconfig.json

@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@keyframes breathing-light {
+  0% { fill: #E5573B; } 
+  /* 0.5s */
+  27% { fill: #FF7E65; }
+  /* 0.5s */
+  55% { fill: #E5573B; }
+  /* 0.5s */
+  83% { fill: #FF7E65; }
+  /* 0.3s */
+  100% { fill: #E5573B }
+}
+
+.breathing-light {
+  animation: breathing-light 1.8s ease-in-out infinite alternate-reverse;
+}

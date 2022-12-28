@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# image optimizer generative file
+public/nextImageExportOptimizer
+public/**/nextImageExportOptimizer
+public/**/next-image-export-optimizer-hashes.json
+
+# Local Netlify folder
+.netlify
